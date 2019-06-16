@@ -7,10 +7,19 @@
     <Filter Include="Mika">
       <UniqueIdentifier>{f8bbe7a1-d138-4b59-98d2-1488576fa145}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Mika\Modules">
+      <UniqueIdentifier>{8eeccce0-f80e-4d57-ab8d-dcc57bb4541a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mika.h">
       <Filter>Mika</Filter>
+    </ClInclude>
+    <ClInclude Include="Observation.h">
+      <Filter>Mika\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Mika\Modules</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
